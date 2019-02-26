@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405E09932223D8A8009C2A42 /* AVPlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E09922223D8A8009C2A42 /* AVPlayersViewController.m */; };
+		405E0996222514FB009C2A42 /* ManageMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E0995222514FB009C2A42 /* ManageMPViewController.m */; };
+		405E099D22251B57009C2A42 /* MYCAirplayDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E099822251B56009C2A42 /* MYCAirplayDevice.m */; };
+		405E099E22251B57009C2A42 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E099922251B56009C2A42 /* GCDAsyncSocket.m */; };
+		405E099F22251B57009C2A42 /* MYCAirplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E099C22251B57009C2A42 /* MYCAirplayManager.m */; };
 		407B6C2B2223B94200E35DE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 407B6C2A2223B94200E35DE9 /* AppDelegate.m */; };
 		407B6C2E2223B94200E35DE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407B6C2D2223B94200E35DE9 /* ViewController.m */; };
 		407B6C312223B94200E35DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407B6C2F2223B94200E35DE9 /* Main.storyboard */; };
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		405E09912223D8A8009C2A42 /* AVPlayersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayersViewController.h; sourceTree = "<group>"; };
+		405E09922223D8A8009C2A42 /* AVPlayersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayersViewController.m; sourceTree = "<group>"; };
+		405E0994222514FB009C2A42 /* ManageMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageMPViewController.h; sourceTree = "<group>"; };
+		405E0995222514FB009C2A42 /* ManageMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageMPViewController.m; sourceTree = "<group>"; };
+		405E099722251B56009C2A42 /* MYCAirplayDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCAirplayDevice.h; sourceTree = "<group>"; };
+		405E099822251B56009C2A42 /* MYCAirplayDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCAirplayDevice.m; sourceTree = "<group>"; };
+		405E099922251B56009C2A42 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		405E099A22251B57009C2A42 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		405E099B22251B57009C2A42 /* MYCAirplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCAirplayManager.h; sourceTree = "<group>"; };
+		405E099C22251B57009C2A42 /* MYCAirplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCAirplayManager.m; sourceTree = "<group>"; };
 		407B6C262223B94200E35DE9 /* AirPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		407B6C292223B94200E35DE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		407B6C2A2223B94200E35DE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +125,16 @@
 				407B6C342223B94300E35DE9 /* LaunchScreen.storyboard */,
 				407B6C372223B94300E35DE9 /* Info.plist */,
 				407B6C382223B94300E35DE9 /* main.m */,
+				405E09912223D8A8009C2A42 /* AVPlayersViewController.h */,
+				405E09922223D8A8009C2A42 /* AVPlayersViewController.m */,
+				405E0994222514FB009C2A42 /* ManageMPViewController.h */,
+				405E0995222514FB009C2A42 /* ManageMPViewController.m */,
+				405E099A22251B57009C2A42 /* GCDAsyncSocket.h */,
+				405E099922251B56009C2A42 /* GCDAsyncSocket.m */,
+				405E099722251B56009C2A42 /* MYCAirplayDevice.h */,
+				405E099822251B56009C2A42 /* MYCAirplayDevice.m */,
+				405E099B22251B57009C2A42 /* MYCAirplayManager.h */,
+				405E099C22251B57009C2A42 /* MYCAirplayManager.m */,
 			);
 			path = AirPlayer;
 			sourceTree = "<group>";
@@ -264,6 +289,11 @@
 			files = (
 				407B6C2E2223B94200E35DE9 /* ViewController.m in Sources */,
 				407B6C392223B94300E35DE9 /* main.m in Sources */,
+				405E099D22251B57009C2A42 /* MYCAirplayDevice.m in Sources */,
+				405E0996222514FB009C2A42 /* ManageMPViewController.m in Sources */,
+				405E099F22251B57009C2A42 /* MYCAirplayManager.m in Sources */,
+				405E09932223D8A8009C2A42 /* AVPlayersViewController.m in Sources */,
+				405E099E22251B57009C2A42 /* GCDAsyncSocket.m in Sources */,
 				407B6C2B2223B94200E35DE9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ET6H877Y72;
 				INFOPLIST_FILE = AirPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ET6H877Y72;
 				INFOPLIST_FILE = AirPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
